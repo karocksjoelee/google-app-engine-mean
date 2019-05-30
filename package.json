@@ -1,0 +1,25 @@
+{
+  "name": "google-app-engine-mean",
+  "version": "0.0.1",
+  "description": "MEAN structure for google app engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karocksjoelee/google-app-engine-mean.git"
+  },
+  "keywords": [
+    "google-app-engine",
+    "mean",
+    "express",
+    "angular"
+  ],
+  "author": "Joe Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karocksjoelee/google-app-engine-mean/issues"
+  },
+  "homepage": "https://github.com/karocksjoelee/google-app-engine-mean#readme"
+}
