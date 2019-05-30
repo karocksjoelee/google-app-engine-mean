@@ -1,5 +1,5 @@
 ## Getting Start
-1. Build Angular App , go into publc folder.
+1. Build Angular App , go into public folder.
 ```sh
 $ npm install
 $ ng build --prod
