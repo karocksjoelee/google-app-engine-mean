@@ -9,7 +9,7 @@ app.listen(PORT, () => {
   console.log('Press Ctrl+C to quit.');
 });
 
-// app.use(express.static(path.join(__dirname, '')))
+app.use(express.static(path.join(__dirname, './public/dist/angular-with-node')));
 app.get('/', (req, res) => {
     res.status(200).send('Hello World from express').end();
 });
