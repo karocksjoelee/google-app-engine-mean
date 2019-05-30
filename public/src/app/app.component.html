@@ -17,4 +17,10 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
+<button (click)="onGetBooks()">Get Books</button>
+<ul>
+  <li *ngFor="let book of books">
+    <h3>{{book.name}} ${{book.price}}</h3>
+  </li>
+</ul>
 
